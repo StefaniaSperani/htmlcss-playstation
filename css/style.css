@@ -100,3 +100,11 @@ header .sony{
 #hero2 img{
     max-width: 50%;
 }
+
+.round-hover{
+    transition: all 0.4s;
+}
+.round-hover:hover{
+    cursor: pointer;
+    margin-top: -3px;
+}

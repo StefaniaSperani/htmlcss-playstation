@@ -117,3 +117,20 @@ header .sony{
 .txt-blue{
     color: var(--blue);
 }
+
+.acc-hover:hover{
+    cursor: pointer;
+    border-bottom: 3px solid var(--blue);
+    color: var(--blue);
+    opacity: 50%;
+}
+
+
+
+/* ### MEDIA QUERY ### */
+
+@media screen and (max-width: 768px){
+    .hide{
+        display: none;
+    }
+}

@@ -1,19 +1,16 @@
 /* UTILITIES */
 
 :root{
-    --black: rgba(31, 31, 31, 1);
-    --dark-grey: rgb(54, 54, 54);
-    --blue: rgba(58, 109, 231, 1);
-    --light-grey: rgba(190, 188, 187, 1);
-    --dark-blue: rgba(22, 28, 59, 1);
-    --red: rgba(205, 61, 15, 1);
-    --lavish-white: rgba(217, 218, 220, 1);
+    --black: #1f1f1f;
+    --dark-grey: #363636;
+    --blue: #3a6de7;
+    --light-grey: #bebcbb;
+    --dark-blue: #161c3b;
+    --red: #cd3d0f;
     --white: #ffffff;
 }
 
-body{
-    font-family: sans-serif;
-}
+
 
 /* COMMON */
 .mybg-black{
@@ -49,6 +46,14 @@ body{
 .btn-acquista{
     background-color: var(--red);
     border: 1px solid var(--red);
+    border-radius: 20px;
+    color: var(--white);
+    padding: 3px 15px;
+}
+
+.btn-info{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
     border-radius: 20px;
     color: var(--white);
     padding: 3px 15px;
@@ -107,4 +112,8 @@ header .sony{
 .round-hover:hover{
     cursor: pointer;
     margin-top: -3px;
+}
+
+.txt-blue{
+    color: var(--blue);
 }

@@ -1,0 +1,102 @@
+/* UTILITIES */
+
+:root{
+    --black: rgba(31, 31, 31, 1);
+    --dark-grey: rgb(54, 54, 54);
+    --blue: rgba(58, 109, 231, 1);
+    --light-grey: rgba(190, 188, 187, 1);
+    --dark-blue: rgba(22, 28, 59, 1);
+    --red: rgba(205, 61, 15, 1);
+    --lavish-white: rgba(217, 218, 220, 1);
+    --white: #ffffff;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* COMMON */
+.mybg-black{
+    background-color: var(--black);
+}
+
+.mybg-light-grey{
+    background-color: var(--light-grey);
+}
+
+.mybg-dark-blue{
+    background-color: var(--dark-blue);
+}
+
+.mybg-blue{
+    background-color: var(--blue);
+}
+
+
+/* BUTTONS */
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.btn-accedi{
+    background-color: var(--dark-grey);
+    border: 1px solid var(--dark-grey);
+    border-radius: 20px;
+    color: var(--white);
+    padding: 3px 15px;
+}
+
+.btn-acquista{
+    background-color: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 20px;
+    color: var(--white);
+    padding: 3px 15px;
+}
+
+
+
+/* NAV */
+nav .nav-link{
+    color: var(--black);
+}
+
+.dropdown-toggle::after {
+    content: '\f078';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+    vertical-align: middle;
+    border: 0;
+    color: grey;
+    font-size: 0.5rem;
+}
+header .sony{
+    width: 80px;
+}
+
+.accedi img{
+    width: 30px;
+}
+
+.bg-hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.bg-hero img{
+    max-width: 50%;
+}
+
+#hero2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#hero2 img{
+    max-width: 50%;
+}

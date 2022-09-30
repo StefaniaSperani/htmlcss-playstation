@@ -46,7 +46,7 @@ body{
 
 .btn-accedi{
     background-color: var(--dark-grey);
-    border: 1px solid var(--dark-grey);
+    border: none;
     border-radius: 20px;
     color: var(--white);
     padding: 3px 15px;
@@ -54,7 +54,7 @@ body{
 
 .btn-acquista{
     background-color: var(--red);
-    border: 1px solid var(--red);
+    border: none;
     border-radius: 20px;
     color: var(--white);
     padding: 3px 15px;
@@ -62,7 +62,7 @@ body{
 
 .btn-info{
     background-color: var(--blue);
-    border: 1px solid var(--blue);
+    border: none;
     border-radius: 20px;
     color: var(--white);
     padding: 3px 15px;
@@ -70,7 +70,7 @@ body{
 
 .btn-plus{
     background-color: var(--lavish-white);
-    border: 1px solid var(--lavish-white);
+    border: none;
     border-radius: 20px;
     color: var(--blue);
     padding: 3px 15px;
@@ -78,13 +78,22 @@ body{
 
 .btn-now{
     background-color: var(--white);
-    border: 1px solid var(--white);
+    border: none;
     border-radius: 20px;
     color: var(--black);
     padding: 3px 15px;
 }
 
 
+.mybtn-hover:hover{
+    cursor: pointer;
+    filter: opacity(0.7);
+}
+
+/* Header */
+header .sony{
+    width: 80px;
+}
 
 /* NAV */
 nav{
@@ -107,14 +116,14 @@ nav .nav-link{
     color: grey;
     font-size: 0.5rem;
 }
-header .sony{
-    width: 80px;
-}
 
 .accedi img{
     width: 30px;
 }
 
+
+
+/* Hero */
 .bg-hero{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -127,6 +136,22 @@ header .sony{
     max-width: 50%;
 }
 
+.myactive{
+    border: 3px solid var(--blue);
+    padding: 2px;
+}
+
+.round-hover{
+    transition: all 0.4s;
+}
+.round-hover:hover{
+    cursor: pointer;
+    transform: translatey(-10px);
+    opacity: 50%;
+    box-shadow: 5px 5px 10px var(--dark-grey);
+}
+
+/* Hero2 */
 #hero2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
@@ -138,15 +163,10 @@ header .sony{
     max-width: 50%;
 }
 
-.round-hover{
-    transition: all 0.4s;
-}
-.round-hover:hover{
-    cursor: pointer;
-    transform: translatey(-10px);
-    opacity: 50%;
-}
 
+
+
+/* Accessori */
 .txt-blue{
     color: var(--blue);
 }
@@ -164,8 +184,22 @@ header .sony{
     border-bottom: 1px solid var(--blue);
 }
 
+
+/* Sconti */
+#sconti img{
+    cursor: pointer;
+}
+#sconti img:hover{
+    opacity: 50%;
+}
+
+
+/* Social */
 #social img{
     cursor: pointer;
+}
+#social img:hover{
+    opacity: 50%;
 }
 
 /* FOOTER */

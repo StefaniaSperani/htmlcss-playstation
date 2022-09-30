@@ -3,8 +3,9 @@
 :root{
     --black: #1f1f1f;
     --dark-grey: #363636;
-    --blue: #3a6de7;
+    --blue: #00439c;
     --light-grey: #bebcbb;
+    --lavish-white: #d9dadc;
     --dark-blue: #161c3b;
     --red: #cd3d0f;
     --white: #ffffff;
@@ -33,11 +34,12 @@
     max-width: 70%;
     margin: 0 auto;
 }
+
+
+
 /* BUTTONS */
-.sticky{
-    position: sticky;
-    top: 0;
-}
+
+
 .btn-accedi{
     background-color: var(--dark-grey);
     border: 1px solid var(--dark-grey);
@@ -62,6 +64,22 @@
     padding: 3px 15px;
 }
 
+.btn-plus{
+    background-color: var(--lavish-white);
+    border: 1px solid var(--lavish-white);
+    border-radius: 20px;
+    color: var(--blue);
+    padding: 3px 15px;
+}
+
+.btn-now{
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    color: var(--black);
+    padding: 3px 15px;
+}
+
 
 
 /* NAV */
@@ -72,6 +90,10 @@ nav .nav-link{
     color: var(--black);
 }
 
+.sticky{
+    position: sticky;
+    top: 0;
+}
 .dropdown-toggle::after {
     content: '\f078';
     font-family: "Font Awesome 5 Free";
@@ -138,11 +160,32 @@ header .sony{
     border-bottom: 1px solid var(--blue);
 }
 
+#social img{
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer a{
+    color: var(--white);
+}
+.footer-bottom img{
+    max-width: 150px;
+}
 
 /* ### MEDIA QUERY ### */
 
-@media screen and (max-width: 768px){
-    .hide{
-        display: none;
+@media screen and (min-width: 768px){
+    #esplora{
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 90% 0;
+    }
+
+    #play-now{
+        background-image: url(../img/ps-now-april-featured-image-block.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 90% 0;
     }
 }

@@ -91,7 +91,7 @@ header .sony{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
 }
 
 .bg-hero img{
@@ -103,7 +103,7 @@ header .sony{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
 }
 #hero2 img{
     max-width: 50%;
@@ -114,7 +114,8 @@ header .sony{
 }
 .round-hover:hover{
     cursor: pointer;
-    margin-top: -3px;
+    transform: translatey(-10px);
+    opacity: 50%;
 }
 
 .txt-blue{

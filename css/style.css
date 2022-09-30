@@ -96,13 +96,22 @@ header .sony{
 }
 
 /* NAV */
-nav{
+main nav{
+    width: 100%;
     z-index: 2000;
 }
 nav .nav-link{
     color: var(--black);
 }
 
+.my-nav .dropdown-menu{
+    min-width: 1100px;
+    border: none;
+}
+
+.my-nav .dropdown-menu a{
+    color: var(--blue);
+}
 .sticky{
     position: sticky;
     top: 0;
@@ -148,8 +157,10 @@ nav .nav-link{
     cursor: pointer;
     transform: translatey(-10px);
     opacity: 50%;
-    box-shadow: 5px 5px 10px var(--dark-grey);
+    box-shadow: 5px 5px 10px var(--blue);
 }
+
+
 
 /* Hero2 */
 #hero2{
@@ -162,7 +173,6 @@ nav .nav-link{
 #hero2 img{
     max-width: 50%;
 }
-
 
 
 
@@ -180,7 +190,7 @@ nav .nav-link{
 
 .game-hover:hover{
     cursor: pointer;
-    padding: 0.5px;
+    transform: scale(1.1);
     border-bottom: 1px solid var(--blue);
 }
 
@@ -233,9 +243,3 @@ footer a{
         background-position: 90% 0;
     }
 }
-
-/* @media screen and (min-width: 992px){
-    .footer{
-        display: flex;
-    }
-} */

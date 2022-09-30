@@ -29,7 +29,10 @@
     background-color: var(--blue);
 }
 
-
+.container-70{
+    max-width: 70%;
+    margin: 0 auto;
+}
 /* BUTTONS */
 .sticky{
     position: sticky;

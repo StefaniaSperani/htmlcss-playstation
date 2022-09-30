@@ -98,10 +98,10 @@ header .sony{
 /* NAV */
 main nav{
     width: 100%;
-    position: relative;
     z-index: 2000;
     background-color: var(--white);
 }
+
 nav .nav-link{
     color: var(--black);
 }
@@ -168,9 +168,11 @@ nav .dropdown{
     padding: 2px;
 }
 
+
 .round-hover{
     transition: all 0.4s;
 }
+
 .round-hover:hover{
     cursor: pointer;
     transform: translatey(-10px);

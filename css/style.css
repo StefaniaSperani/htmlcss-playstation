@@ -14,6 +14,10 @@
 
 
 /* COMMON */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .mybg-black{
     background-color: var(--black);
 }
@@ -167,10 +171,16 @@ header .sony{
 /* FOOTER */
 footer a{
     color: var(--white);
+    text-decoration: none;
+}
+
+.footer li{
+    list-style-type: none;
 }
 .footer-bottom img{
     max-width: 150px;
 }
+
 
 /* ### MEDIA QUERY ### */
 
@@ -189,3 +199,9 @@ footer a{
         background-position: 90% 0;
     }
 }
+
+/* @media screen and (min-width: 992px){
+    .footer{
+        display: flex;
+    }
+} */

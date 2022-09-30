@@ -14,9 +14,6 @@
 
 
 /* COMMON */
-body{
-    font-family: 'Roboto', sans-serif;
-}
 
 .mybg-black{
     background-color: var(--black);
@@ -84,20 +81,24 @@ body{
     padding: 3px 15px;
 }
 
-
 .mybtn-hover:hover{
     cursor: pointer;
     filter: opacity(0.7);
 }
+
+
 
 /* Header */
 header .sony{
     width: 80px;
 }
 
+
+
 /* NAV */
 main nav{
     width: 100%;
+    position: relative;
     z-index: 2000;
     background-color: var(--white);
 }
@@ -105,8 +106,15 @@ nav .nav-link{
     color: var(--black);
 }
 
+nav .dropdown{
+    position: static;
+}
+
 .my-nav .dropdown-menu{
-    width: 100%
+    width: 100%;
+    top: 74px;
+    left: 0;
+    right: 0;
     padding: 50px 100px;
     border: none;
 }
@@ -114,13 +122,16 @@ nav .nav-link{
 .my-nav .dropdown-item{
     width: auto;
 }
+
 .my-nav .dropdown-menu a{
     color: var(--blue);
 }
+
 .sticky{
     position: sticky;
     top: 0;
 }
+
 .dropdown-toggle::after {
     content: '\f078';
     font-family: "Font Awesome 5 Free";
@@ -136,15 +147,18 @@ nav .nav-link{
 }
 
 
+
 /* Hero */
 .bg-hero{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 700px;
+    background-position: top;
 }
 
+.myp{
+    padding-top: 400px;
+}
 .bg-hero img{
     max-width: 50%;
 }
@@ -198,9 +212,11 @@ nav .nav-link{
     border-bottom: 1px solid var(--blue);
 }
 
-.acc{
-    box-sizing: border-box;
+.border-bot{
+    border-bottom: 3px solid transparent;
 }
+
+
 
 /* Sconti */
 #sconti img{
@@ -211,6 +227,7 @@ nav .nav-link{
 }
 
 
+
 /* Social */
 #social img{
     cursor: pointer;
@@ -218,6 +235,8 @@ nav .nav-link{
 #social img:hover{
     opacity: 50%;
 }
+
+
 
 /* FOOTER */
 footer a{
@@ -231,6 +250,7 @@ footer a{
 .footer-bottom img{
     max-width: 150px;
 }
+
 
 
 /* ### MEDIA QUERY ### */

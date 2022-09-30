@@ -99,16 +99,21 @@ header .sony{
 main nav{
     width: 100%;
     z-index: 2000;
+    background-color: var(--white);
 }
 nav .nav-link{
     color: var(--black);
 }
 
 .my-nav .dropdown-menu{
-    min-width: 1100px;
+    width: 100%
+    padding: 50px 100px;
     border: none;
 }
 
+.my-nav .dropdown-item{
+    width: auto;
+}
 .my-nav .dropdown-menu a{
     color: var(--blue);
 }
@@ -129,7 +134,6 @@ nav .nav-link{
 .accedi img{
     width: 30px;
 }
-
 
 
 /* Hero */
